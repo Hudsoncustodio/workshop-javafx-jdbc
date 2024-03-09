@@ -41,9 +41,10 @@ public class MainViewController implements Initializable{
 	public void onMenuItemAboutAction() {
 		loadView("/gui/about.fxml");
 	}
+		
 	@Override
 	public void initialize(URL url, ResourceBundle rb) {		
-	}	
+	}
 	
 	private synchronized void loadView(String absoluteName) {
 		try {
